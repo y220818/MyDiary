@@ -1,0 +1,204 @@
+h1 {
+	background-color: teal;
+	padding: 20px;
+	color: white
+}
+
+p {
+	background-color: brown;
+	padding: 10px;
+	color: white;
+}
+
+h2 {
+	background-color: tomato;
+	color: aliceblue;
+	line-height: 2;
+	padding: 12px 18px;
+	border-left: 10px solid #333;
+	border-radius: 8px;
+}
+
+h3 {
+	background-color: palegreen;
+	padding: 10px;
+	/* color: white; */
+	/* width: 200px; */
+}
+
+span {
+	padding: 8px 16px;
+	border: 2px inset red;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+div.sky {
+	width: 500px;
+	height: 100px;
+	background-color: skyblue;
+	border: 1px solid #333;
+	overflow: auto;
+	margin: 10px;
+	line-height: 100px;
+}
+
+div.tomato {
+	/* width: 300px; */
+	height: 100px;
+	color: white;
+	background-color: tomato;
+	font-size: 80px;
+	font-family: fantasy;
+	text-align: center;
+	margin-top: 30px;
+}
+
+ul.tomato li {
+	background-color: tomato;
+	padding: 10px;
+	color: white;
+	margin: 5px;
+}
+
+input {
+	min-width: 100px;
+	/* box-sizing: border-box; */
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 12px 20px 12px 10px;
+}
+
+input[type=radio], input[type=checkbox] {
+	min-width: 20px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 12px 20px 12px 10px;
+}
+
+select {
+	width: 300px;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 5px;
+	border: none;
+	background-color: coral;
+	color: white;
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+	padding: 10px;
+	/* width: 97px; */
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #333;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+	/* background: no-repeat; 
+    background-image: url(images/susi.gif);
+    background-size: cover;
+    background-position: 0px 0px; */
+	/* color: aliceblue */
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+tr:hover {
+	background-color: yellow;
+}
+
+ul {
+	list-style-type: none;
+	/* list-style-type: circle; */
+}
+
+ul li {
+	background: coral;
+	/* color: white; */
+	margin: 5px;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* div{
+    width: 100px; height: 100px; margin: 10px; 
+    background-color:green;
+} */
+.pagination {
+	display: inline-block
+}
+
+.pagination a {
+	padding: 8px 16px;
+	text-decoration: none;
+	color: black
+}
+
+.pagination .active {
+	background-color: green;
+	color: white;
+}
+
+.pagination a:hover:not (.active ){
+	background-color: #ddd
+}
+
+img.big{
+	width: 100%; 
+}
+img.middle{
+	width: 400px;
+}
+img.small{
+	width: 200px;
+}
+img.thumb{
+	width: 100px;
+}
+
+div.product{
+	display: flex;
+	flex-wrap: wrap;
+}
+div.inProduct{
+	flex: 25%;
+	margin-left: 5px;
+}
